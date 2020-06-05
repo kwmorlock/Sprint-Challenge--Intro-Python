@@ -20,3 +20,11 @@
 
 class Vehicle: #this is the base class
     pass
+
+class GroundVehicle(Vehicle):
+    pass
+
+class Car(GroundVehicle):
+    pass
+class Motorcycle(GroundVehicle):
+    pass
