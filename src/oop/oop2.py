@@ -42,3 +42,6 @@ vehicles = [
 # Go through the vehicles list and print the result of calling drive() on each.
 
 # TODO
+#no test for this one? Check in terminal :) 
+for vroom in vehicles:
+    print(vroom.drive())
